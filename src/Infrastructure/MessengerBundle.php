@@ -9,7 +9,7 @@ class MessengerBundle extends BaseBundle
 
     public function getName(): string
     {
-        return 'message-bus';
+        return 'messenger';
     }
 
     public function boot(): void
