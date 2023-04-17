@@ -15,10 +15,4 @@ class MessageBusBundle extends BaseBundle
         return 'message-bus';
     }
 
-    public function boot(): void
-    {
-        if ($this->isCli()) {
-            $this->configureFromPhpFile(__DIR__ . '/config/commands.php');
-        }
-    }
 }

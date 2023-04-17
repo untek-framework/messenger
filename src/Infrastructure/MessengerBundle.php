@@ -11,11 +11,4 @@ class MessengerBundle extends BaseBundle
     {
         return 'messenger';
     }
-
-    public function boot(): void
-    {
-        if ($this->isCli()) {
-            $this->configureFromPhpFile(__DIR__ . '/config/commands.php');
-        }
-    }
 }
