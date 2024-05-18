@@ -2,6 +2,10 @@
 
 namespace Untek\Framework\Messenger\Infrastructure\Messenger\Libs;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
+
+DeprecateHelper::hardThrow();
+
 class MessageAliasManager
 {
 
